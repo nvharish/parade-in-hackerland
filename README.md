@@ -1,5 +1,4 @@
 # Parade in HackerLand
-Parade in HackerLand
 The people in HackerLand, are getting ready for a parade, and the participants are all mixed up. There should be no instance where a red uniform is immediately to the left of a blue one.
 <br/><br/>
 Given a binary string, 0 denotes a person in red uniform and 1 denotes a person in blue uniform. The goal is to remove any occurrence of "01" in the binary string. More formally, at each second, all the substrings <i>"01"</i> in the string s are changed to <i>"10"</i> is present in the string. All the substrings <i>"01"</i> in the current state of s are changed at the same time.
