@@ -6,6 +6,7 @@ package paradehackerland;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 
 /**
  *
@@ -13,7 +14,7 @@ import java.io.FileReader;
  */
 class Result {
 
-    public int getSwapTime(String color) {
+    public static int getSwapTime(String color) {
         String findStr = "01";
         String replaceStr = "10";
         int t = 0;
@@ -29,15 +30,14 @@ public class ParadeHackerLand {
 
     /**
      * @param args the command line arguments
-     * @throws java.lang.Exception
+     * @throws java.io.IOException
      */
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         String fileName = "input.txt";
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         String binCode;
-        Result result = new Result();
         while ((binCode = br.readLine()) != null) {
-            System.out.println(result.getSwapTime(binCode));
+            System.out.println(Result.getSwapTime(binCode));
         }
     }
 
