@@ -1,4 +1,4 @@
-# parade-in-hackerland
+# Parade in HackerLand
 Parade in HackerLand
 The people in HackerLand, are getting ready for a parade, and the participants are all mixed up. There should be no instance where a red uniform is immediately to the left of a blue one.
 <br/><br/>
@@ -19,5 +19,5 @@ t = 4, color = "111000"</i>
 <br/><br/>
 Hence this process takes 4 seconds.
 <br/><br/>
-<b>Constraints</b>
+<b>Constraints</b></br>
 1 <= <i>|color|</i> <= 3 * 10<sup>5</sup> where <i>|color|</i> denotes the size of the binary string.
